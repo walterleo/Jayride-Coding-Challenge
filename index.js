@@ -37,7 +37,7 @@ const { error } = schema.validate(req.params.numberPassengers);
 if( !error )
     next();
 else {
-    res.status(400).send({ error: 'The number of passengers must be an integer positive' });
+    res.status(400).send({ error: 'The number of passengers must be a positive integer' });
 }
 
 }, (req, res) => {
