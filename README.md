@@ -20,6 +20,7 @@ corresponds to this IP address.
 
 *Solved with free IP/Location API https://ipstack.com/product to obtain the location of the client's ip.*
 
+You need to use a API_KEY IPSTACK, adding a file .env where the key is declared.
 
 ### Task 3
 The API should reply to the resource request /Listings that takes the number of passengers as a
