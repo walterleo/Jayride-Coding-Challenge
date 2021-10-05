@@ -20,13 +20,13 @@ corresponds to this IP address.
 
 *Solved with free IP/Location API https://ipstack.com/product to obtain the location of the client's ip.*
 
-You need to use a API_KEY IPSTACK, adding a file .env where the key is declared.
+You need to use a API_KEY_IPSTACK, adding a file .env where the key is declared.
 
 ### Task 3
 The API should reply to the resource request /Listings that takes the number of passengers as a
 parameter.
 
-*Solved consulting the endpoint https://jayridechallengeapi.azurewebsites.net/api/QuoteRequest to get the data and then filtering and mapping the list with native javascript functions to manipulate arrays.*
+*Solved consulting the endpoint https://jayridechallengeapi.azurewebsites.net/api/QuoteRequest to get the data and then filtering and mapping the list with native javascript functions to manipulate arrays. The resulting list was ordered from lowest to highest for the total price*
 
 
 ## Quick Start
